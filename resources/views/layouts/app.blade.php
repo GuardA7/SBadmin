@@ -32,8 +32,11 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('sbadmin/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('sbadmin/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('sbadmin/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('sbadmin/vendor/jquery/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('sbadmin/js/sb-admin-2.min.js') }}"></script>
+
+
+    @yield('scripts') <!-- Tambahkan ini untuk script di view -->
 </body>
 </html>
